@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./dice.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Dice Game made by: M.Umaim</h1>
+
+        <!-- Player section with images and names -->
+        <div class="players">
+            <div class="player">
+                <img id="player1-img" src="./Assets/naruto.jpg" alt="Player 1" class="player-img" />
+                <h2 id="player1-name" class="player-name">Naruto</h2>
+            </div>
+            <div class="player">
+                <img id="player2-img" src="./Assets/sasuke.jpg" alt="Player 2" class="player-img" />
+                <h2 id="player2-name" class="player-name">Sasuke</h2>
+            </div>
+        </div>
+
+        <!-- Dice container -->
+        <div class="dice-container">
+            <div class="dice">
+                <span class="num">1</span>
+            </div>
+            <div class="dice">
+                <span class="num">1</span>
+            </div>
+        </div>
+
+        <button id="rollButton" class="roll-btn">Roll Dice</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
